@@ -11,7 +11,6 @@ from datetime import datetime, timezone, timedelta
 from typing import List, Optional, Dict, Any, Literal
 
 from fastapi import FastAPI, APIRouter, HTTPException, Request, Response, Depends, UploadFile, File, BackgroundTasks, WebSocket, WebSocketDisconnect, Query, Body
-from fastapi.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import BaseModel, Field, EmailStr
@@ -29,7 +28,8 @@ db = client[os.environ['DB_NAME']]
 JWT_ALGO = "HS256"
 JWT_SECRET = os.environ['JWT_SECRET']
 
-from object_storage import RENDERS_DIR, AVATAR_DIR, PDF_DIR  # noqa: E402
+from object_storage import (RENDERS_DIR, AVATAR_DIR, PDF_DIR,  # noqa: E402
+                            put_upload, ensure_local, delete_upload)
 
 BRAND = "HealthcareCanvas_P&W_HIS"
 
@@ -398,13 +398,10 @@ async def upload_avatar(file: UploadFile = File(...), user=Depends(get_current_u
         raise HTTPException(413, "avatar exceeds 3 MB")
     uid = user["id"]
     for e in (".png", ".jpg", ".webp", ".gif"):
-        p = AVATAR_DIR / f"{uid}{e}"
-        if p.exists() and e != ext:
-            try: p.unlink()
-            except Exception: pass
+        if e != ext:
+            delete_upload(AVATAR_DIR / f"{uid}{e}")
     dest = AVATAR_DIR / f"{uid}{ext}"
-    from object_storage import put_upload as _put_upload  # noqa
-    _put_upload(dest, data, f"image/{ext.strip('.')}" if ext else "application/octet-stream")
+    put_upload(dest, data, f"image/{ext.strip('.')}" if ext else "application/octet-stream")
     url = f"/api/auth/me/avatar/{uid}"
     await db.users.update_one({"email": user["email"]}, {"$set": {"avatar_url": url}})
     return {"ok": True, "avatar_url": url}
@@ -413,7 +410,7 @@ async def upload_avatar(file: UploadFile = File(...), user=Depends(get_current_u
 async def get_avatar(uid: str):
     for e in (".png", ".jpg", ".webp", ".gif"):
         p = AVATAR_DIR / f"{uid}{e}"
-        if p.exists():
+        if ensure_local(p):
             from fastapi.responses import FileResponse
             return FileResponse(str(p))
     raise HTTPException(404, "avatar not found")
@@ -3004,9 +3001,7 @@ async def render_ai(room_id: str, user=Depends(_room_access)):
 
     image_bytes = images[0]
     filename = f"ai-{room_id[:8]}-v{scene.get('version',0)}-{new_id()[:8]}.png"
-    filepath = RENDERS_DIR / filename
-    with open(filepath, "wb") as f:
-        f.write(image_bytes)
+    put_upload(RENDERS_DIR / filename, image_bytes, "image/png")
 
     doc = {
         "id": new_id(), "room_id": room_id,
@@ -3037,9 +3032,7 @@ async def _generate_enhanced_render_bg(room_id: str, user_email: str):
         if not images: return
         image_bytes = images[0]
         filename = f"ai-{room_id[:8]}-v{scene.get('version',0)}-{new_id()[:8]}.png"
-        filepath = RENDERS_DIR / filename
-        with open(filepath, "wb") as f:
-            f.write(image_bytes)
+        put_upload(RENDERS_DIR / filename, image_bytes, "image/png")
         await db.ai_renders.insert_one({
             "id": new_id(), "room_id": room_id, "type": "enhanced",
             "url": f"/api/ai-renders/{filename}",
@@ -3051,6 +3044,17 @@ async def _generate_enhanced_render_bg(room_id: str, user_email: str):
         logging.info(f"Background enhanced render created for room {room_id} v{scene.get('version')}")
     except Exception as e:
         logging.warning(f"BG enhanced render failed: {e}")
+
+@api.get("/ai-renders/{filename}")
+async def serve_ai_render(filename: str):
+    # Public, like the other image endpoints: <img> tags can't send tokens.
+    if not re.fullmatch(r"[A-Za-z0-9._-]+\.png", filename):
+        raise HTTPException(404, "Not found")
+    path = RENDERS_DIR / filename
+    if not ensure_local(path):
+        raise HTTPException(404, "Not found")
+    from fastapi.responses import FileResponse
+    return FileResponse(str(path), media_type="image/png")
 
 @api.get("/rooms/{room_id}/ai-renders")
 async def list_ai_renders(room_id: str, user=Depends(_room_access)):
@@ -3070,10 +3074,7 @@ async def clear_renders(room_id: str, user=Depends(_room_access)):
     for r in ai:
         fname = (r.get("url") or "").split("/")[-1]
         if fname:
-            fpath = RENDERS_DIR / fname
-            if fpath.exists():
-                try: fpath.unlink()
-                except Exception: pass
+            delete_upload(RENDERS_DIR / fname)
     n1 = (await db.renders.delete_many({"room_id": room_id})).deleted_count
     n2 = (await db.ai_renders.delete_many({"room_id": room_id})).deleted_count
     return {"ok": True, "cleared_renders": n1, "cleared_ai_renders": n2}
@@ -3141,10 +3142,7 @@ async def delete_room(room_id: str, user=Depends(_room_access)):
     for r in ai:
         fname = (r.get("url") or "").split("/")[-1]
         if fname:
-            fpath = RENDERS_DIR / fname
-            if fpath.exists():
-                try: fpath.unlink()
-                except Exception: pass
+            delete_upload(RENDERS_DIR / fname)
     counts = {
         "scene": (await db.scenes.delete_many({"room_id": room_id})).deleted_count,
         "validations": (await db.validations.delete_many({"room_id": room_id})).deleted_count,
@@ -3160,8 +3158,7 @@ async def delete_room(room_id: str, user=Depends(_room_access)):
     if imp_id and not await db.hierarchy.find_one({"metadata.ifc_source.import_id": imp_id}):
         imp = await db.ifc_imports.find_one_and_delete({"id": imp_id})
         if imp:
-            try: Path(imp["path"]).unlink(missing_ok=True)
-            except Exception: pass
+            delete_upload(imp["path"])
     return {"ok": True, "id": room_id, "deleted": counts}
 
 
@@ -4201,8 +4198,7 @@ async def pdf_extract(file: UploadFile = File(...), user=Depends(get_current_use
     # Persist the PDF so extracted rules can deep-link back into it.
     pdf_id = new_id()
     persisted_path = str(PDF_DIR / f"{pdf_id}.pdf")
-    from object_storage import put_upload as _put_upload  # noqa
-    _put_upload(Path(persisted_path), contents, "application/pdf")
+    put_upload(Path(persisted_path), contents, "application/pdf")
     # Register in DB so the file can be served + audited.
     await db.pdf_uploads.insert_one({
         "id": pdf_id,
@@ -4275,7 +4271,7 @@ async def serve_ingested_pdf(pdf_id: str, user=Depends(get_current_user)):
     if not doc:
         raise HTTPException(404, "PDF not found")
     path = str(PDF_DIR / f"{pdf_id}.pdf")
-    if not os.path.exists(path):
+    if not ensure_local(path):
         raise HTTPException(404, "PDF file missing on disk")
     filename = doc.get("original_filename") or f"{pdf_id}.pdf"
     return FileResponse(
@@ -5238,8 +5234,7 @@ async def upload_family(file: UploadFile = File(...), user=Depends(get_current_u
         thumb_url = None
         thumb_bytes = meta.pop("thumbnail_bytes", None)
         if thumb_bytes:
-            thumb_path = Path(saved["path"] + ".preview.png")
-            thumb_path.write_bytes(thumb_bytes)
+            put_upload(Path(saved["path"] + ".preview.png"), thumb_bytes, "image/png")
             thumb_url = f"/api/families/{doc['id']}/thumbnail"
         dims = meta.get("dimensions") or {}
         element = {
@@ -5292,7 +5287,7 @@ async def family_thumbnail(fam_id: str):
     doc = await db.ifc_families.find_one({"id": fam_id}, {"path": 1, "_id": 0})
     if not doc: raise HTTPException(404, "Family not found.")
     png_path = Path(doc["path"] + ".preview.png")
-    if not png_path.exists(): raise HTTPException(404, "No thumbnail available.")
+    if not ensure_local(png_path): raise HTTPException(404, "No thumbnail available.")
     return Response(
         content=png_path.read_bytes(),
         media_type="image/png",
@@ -5395,6 +5390,7 @@ async def family_mesh(fam_id: str, user=Depends(get_current_user)):
             "vertices": v, "faces": f,
             "is_placeholder": True,
         }]}
+    if not ensure_local(doc["path"]): raise HTTPException(404, "Family file missing.")
     return {"meshes": extract_meshes(doc["path"])}
 
 @api.patch("/families/{fam_id}")
@@ -5482,9 +5478,9 @@ async def delete_family(fam_id: str, force: bool = False, user=Depends(get_curre
     is_system = bool(doc.get("is_system"))
     if force and not is_system:
         try:
-            Path(doc["path"]).unlink(missing_ok=True)
+            delete_upload(doc["path"])
             # Also remove any thumbnail sidecar we wrote next to the .rfa
-            Path(doc["path"] + ".preview.png").unlink(missing_ok=True)
+            delete_upload(doc["path"] + ".preview.png")
             file_removed = True
         except Exception: pass
     await db.ifc_families.delete_one({"id": fam_id})
@@ -5549,7 +5545,7 @@ async def import_room_ifc(room_id: str, file: UploadFile = File(...),
 
 # ---------- IFC room import (new room from any Revit IFC export) ----------
 from ifc_room_import import parse_ifc_rooms, GENERIC_KEY
-from object_storage import read_upload
+from object_storage import read_upload  # noqa: E402
 
 IFC_MAX_BYTES = 150 * 1024 * 1024
 
@@ -5573,8 +5569,7 @@ async def _cleanup_ifc_imports():
     async for imp in db.ifc_imports.find({"created_at": {"$lt": cutoff}}, {"_id": 0, "id": 1, "path": 1}):
         if imp["id"] in used:
             continue
-        try: Path(imp["path"]).unlink(missing_ok=True)
-        except Exception: pass
+        delete_upload(imp["path"])
         await db.ifc_imports.delete_one({"id": imp["id"]})
 
 
@@ -6328,7 +6323,6 @@ async def presence_ws(ws: WebSocket, room_id: str):
         if room_id != "estate":
             try: await presence.broadcast_estate_summary()
             except Exception: pass
-app.mount("/api/ai-renders", StaticFiles(directory=str(RENDERS_DIR)), name="ai-renders")
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,

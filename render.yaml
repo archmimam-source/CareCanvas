@@ -7,14 +7,10 @@ services:
     runtime: python
     name: carecanvas-api
     rootDir: backend
-    plan: starter            # persistent disks need a paid instance
+    plan: free               # sleeps after ~15 min idle; first request then takes ~1 min
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /api/
-    disk:
-      name: carecanvas-data
-      mountPath: /var/data
-      sizeGB: 5
     envVars:
       - key: MONGO_URL            # MongoDB Atlas connection string
         sync: false
@@ -34,8 +30,8 @@ services:
         generateValue: true
       - key: SIGNING_SECRET       # reuse the previous value to keep old e-signatures valid
         sync: false
-      - key: DATA_DIR
-        value: /var/data
+      - key: DATA_DIR             # local cache; durable copies of files live in MongoDB
+        value: /tmp/carecanvas-data
 
   # React frontend (static build)
   - type: web
