@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Apple-inspired neutral warm-grey palette */
+    --hb-bg: #FBFBFD;
+    --hb-surface: #FFFFFF;
+    --hb-border: rgba(60, 60, 67, 0.12);
+    --hb-border-strong: rgba(60, 60, 67, 0.22);
+    --hb-text: #1D1D1F;
+    --hb-text-2: #6E6E73;
+    --hb-text-3: #A1A1A6;
+    --hb-clean: #34C759;
+    --hb-clean-soft: #E8F8EE;
+    --hb-transition: #FF9500;
+    --hb-transition-soft: #FFF4E5;
+    --hb-dirty: #FF3B30;
+    --hb-dirty-soft: #FFEBEE;
+
+    --background: 0 0% 100%;
+    --foreground: 240 6% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 6% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 6% 10%;
+    --primary: 240 6% 10%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 45%;
+    --accent: 240 5% 96%;
+    --accent-foreground: 240 6% 10%;
+    --destructive: 4 100% 59%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 240 6% 10%;
+    --radius: 0.875rem;
+}
+
+* {
+    border-color: hsl(var(--border));
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: var(--hb-bg);
+    color: var(--hb-text);
+    font-family: 'Inter', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'ss01', 'cv01', 'cv11';
+    letter-spacing: -0.01em;
+}
+
+/* Display type uses Inter's tighter tracking for a SF-Pro-Display feel */
+.font-display { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif; letter-spacing: -0.022em; }
+.font-mono { font-family: 'JetBrains Mono', ui-monospace, 'SF Mono', monospace; }
+
+.hb-glass {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: saturate(180%) blur(24px);
+    -webkit-backdrop-filter: saturate(180%) blur(24px);
+    border: 1px solid rgba(60, 60, 67, 0.08);
+}
+
+.hb-surface {
+    background: var(--hb-surface);
+    border: 1px solid var(--hb-border);
+    box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.hb-elevated {
+    background: var(--hb-surface);
+    border: 1px solid var(--hb-border);
+    box-shadow:
+        0 1px 2px rgba(16, 24, 40, 0.05),
+        0 8px 24px -8px rgba(16, 24, 40, 0.08);
+}
+
+/* Apple-style primary button gloss */
+.hb-btn-primary {
+    background: linear-gradient(180deg, #2E2E33 0%, #1D1D1F 100%);
+    color: #fff;
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.08),
+        0 1px 2px rgba(0,0,0,0.20),
+        0 0 0 0.5px rgba(0,0,0,0.6);
+    transition: box-shadow 200ms ease, transform 100ms ease, background 200ms ease;
+}
+.hb-btn-primary:hover {
+    background: linear-gradient(180deg, #3A3A40 0%, #29292E 100%);
+    box-shadow:
+        inset 0 1px 0 rgba(255,255,255,0.10),
+        0 4px 12px rgba(0,0,0,0.20);
+}
+.hb-btn-primary:active { transform: scale(0.98); }
+
+.hb-grain::before {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+    background-size: 3px 3px;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.hb-canvas-grid {
+    background-color: var(--hb-bg);
+    background-image:
+        linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.zone-clean-fill { fill: #E8F8EE; stroke: #34C759; stroke-opacity: 0.4; }
+.zone-transition-fill { fill: #FFF4E5; stroke: #FF9500; stroke-opacity: 0.4; }
+.zone-dirty-fill { fill: #FFEBEE; stroke: #FF3B30; stroke-opacity: 0.4; }
+
+.hb-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.hb-scroll::-webkit-scrollbar-thumb { background: rgba(60,60,67,0.24); border-radius: 8px; }
+.hb-scroll::-webkit-scrollbar-track { background: transparent; }
+
+@keyframes pulse-flag {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.6); }
+    50% { box-shadow: 0 0 0 8px rgba(255, 59, 48, 0); }
+}
+.flag-pulse { animation: pulse-flag 1.6s ease-out infinite; }
+
+::selection { background: rgba(29, 29, 31, 0.9); color: white; }
+
+
+@keyframes his-pulse-ring {
+    0%, 100% { opacity: 0.95; stroke-width: 2.5; }
+    50%      { opacity: 0.55; stroke-width: 4;   }
+}

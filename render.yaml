@@ -1,0 +1,55 @@
+# Render Blueprint for CareCanvas.
+# Deploy: Render dashboard → New → Blueprint → select this repo.
+# Values marked `sync: false` are prompted for on first deploy (see README).
+services:
+  # FastAPI backend (REST + WebSockets)
+  - type: web
+    runtime: python
+    name: carecanvas-api
+    rootDir: backend
+    plan: starter            # persistent disks need a paid instance
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/
+    disk:
+      name: carecanvas-data
+      mountPath: /var/data
+      sizeGB: 5
+    envVars:
+      - key: MONGO_URL            # MongoDB Atlas connection string
+        sync: false
+      - key: DB_NAME
+        value: carecanvas
+      - key: GEMINI_API_KEY       # https://aistudio.google.com/apikey
+        sync: false
+      - key: CORS_ORIGINS         # the frontend URL, e.g. https://carecanvas.onrender.com
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: PUBLISH_APPROVER_EMAILS
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SIGNING_SECRET       # reuse the previous value to keep old e-signatures valid
+        sync: false
+      - key: DATA_DIR
+        value: /var/data
+
+  # React frontend (static build)
+  - type: web
+    runtime: static
+    name: carecanvas
+    rootDir: frontend
+    buildCommand: yarn install --frozen-lockfile && CI=false yarn build
+    staticPublishPath: build
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: REACT_APP_BACKEND_URL   # the API URL, e.g. https://carecanvas-api.onrender.com
+        sync: false
+      - key: NODE_VERSION
+        value: "22"

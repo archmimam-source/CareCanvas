@@ -1,0 +1,67 @@
+{
+  "id": "revit_ex01",
+  "name": "Revit Example 01 · Dirty Utility (Medium) 6222",
+  "source": {
+    "file": "dirty_utility_Example_01.ifc",
+    "authoring_tool": "Autodesk Revit 2026 (26.4.0.32)",
+    "schema": "IFC2X3 CoordinationView 2.0",
+    "project": "NHP403_TR",
+    "ifc_space": "6222 · Dirty Utility (Medium)",
+    "notes": "Extracted with IfcOpenShell. Coordinates are room-local: x from the west wall face, y from the north wall face, metres. Door touchless button on the corridor side of the west wall omitted (outside the room)."
+  },
+  "room": {"width": 3.615, "depth": 2.5, "ceiling_h": 2.7,
+           "walls": {"N": "IWT A1 FR30 132mm", "S": "IWT A2 FR60 154mm",
+                     "E": "IWT A2 FR60 154mm", "W": "IWT A1 FR30 132mm"},
+           "ceiling": "Suspended moisture-resistant plasterboard 10.5mm"},
+  "wall_items": [
+    {"key": "prep_counter",       "revit": "WKT992 Heavy Duty Workbench",      "wall": "N", "along": 0.0,   "len": 0.9,   "depth": 0.602, "back": 0.0,   "elev": 0.0,   "h": 0.902, "mount": "floor"},
+    {"key": "steel_tray",         "revit": "SPL901 Splash Panel",              "wall": "N", "along": 0.0,   "len": 0.05,  "depth": 0.585, "back": 0.0,   "elev": 0.902, "h": 0.415, "mount": "wall"},
+    {"key": "steel_tray",         "revit": "SPL901 Splash Panel",              "wall": "N", "along": 0.85,  "len": 0.05,  "depth": 0.585, "back": 0.0,   "elev": 0.902, "h": 0.415, "mount": "wall"},
+    {"key": "urine_scale",        "revit": "SCA900 Urine Weighing Scale",      "wall": "N", "along": 0.6,   "len": 0.19,  "depth": 0.25,  "back": 0.163, "elev": 0.902, "h": 0.055, "mount": "wall"},
+    {"key": "cabinet_coshh",      "revit": "CUP911 COSHH Cabinet",             "wall": "N", "along": 0.0,   "len": 0.45,  "depth": 0.339, "back": 0.0,   "elev": 1.4,   "h": 0.457, "mount": "wall"},
+    {"key": "cabinet_coshh",      "revit": "CUP911 COSHH Cabinet",             "wall": "N", "along": 0.45,  "len": 0.45,  "depth": 0.339, "back": 0.0,   "elev": 1.4,   "h": 0.457, "mount": "wall"},
+    {"key": "sloping_storage",    "revit": "SMS010 Modular Storage Sloping Top","wall": "N", "along": 0.0,  "len": 0.9,   "depth": 0.325, "back": 0.0,   "elev": 1.857, "h": 0.188, "mount": "wall"},
+    {"key": "socket_twin",        "revit": "OUT010 Twin Socket Outlet",        "wall": "N", "along": 0.126, "len": 0.146, "depth": 0.05,  "back": 0.0,   "elev": 1.1,   "h": 0.086, "mount": "wall"},
+    {"key": "socket_twin",        "revit": "OUT010 Twin Socket Outlet",        "wall": "N", "along": 0.345, "len": 0.146, "depth": 0.05,  "back": 0.0,   "elev": 1.1,   "h": 0.086, "mount": "wall"},
+    {"key": "data_double",        "revit": "OUT131 Double Data/Voice Outlet",  "wall": "N", "along": 0.564, "len": 0.085, "depth": 0.05,  "back": 0.0,   "elev": 1.1,   "h": 0.085, "mount": "wall"},
+    {"key": "data_double",        "revit": "OUT131 Double Data/Voice Outlet",  "wall": "N", "along": 0.721, "len": 0.085, "depth": 0.05,  "back": 0.0,   "elev": 1.1,   "h": 0.085, "mount": "wall"},
+    {"key": "shelf_wall",         "revit": "SHE996 Wall Mounted Shelf",        "wall": "N", "along": 0.95,  "len": 1.0,   "depth": 0.4,   "back": 0.0,   "elev": 0.885, "h": 0.035, "mount": "wall"},
+    {"key": "shelf_bracket",      "revit": "BRA903 Bracket Shelving",          "wall": "N", "along": 1.15,  "len": 0.063, "depth": 0.356, "back": 0.0,   "elev": 0.707, "h": 0.178, "mount": "wall"},
+    {"key": "shelf_bracket",      "revit": "BRA903 Bracket Shelving",          "wall": "N", "along": 1.687, "len": 0.063, "depth": 0.356, "back": 0.0,   "elev": 0.707, "h": 0.178, "mount": "wall"},
+    {"key": "wipes_dispenser",    "revit": "DIS064 Wipes Dispenser",           "wall": "N", "along": 1.007, "len": 0.1,   "depth": 0.05,  "back": 0.0,   "elev": 1.2,   "h": 0.1,   "mount": "wall"},
+
+    {"key": "sanitary_ips",       "revit": "PAN923 Sanitary IPS",              "wall": "E", "along": 0.655, "len": 0.522, "depth": 0.2,   "back": 0.0,   "elev": 0.0,   "h": 2.7,   "mount": "wall"},
+    {"key": "macerator",          "revit": "DSU901 Macerator Disposal Unit",   "wall": "E", "along": 0.657, "len": 0.518, "depth": 0.662, "back": 0.298, "elev": 0.0,   "h": 1.02,  "mount": "floor"},
+    {"key": "outlet_isolator",    "revit": "OUT079 Isolator Outlet",           "wall": "E", "along": 0.823, "len": 0.2,   "depth": 0.095, "back": 0.2,   "elev": 1.04,  "h": 0.15,  "mount": "wall"},
+    {"key": "connection_box_32a", "revit": "OUT931 Connection Box 32A",        "wall": "E", "along": 0.724, "len": 0.05,  "depth": 0.05,  "back": 0.2,   "elev": 0.88,  "h": 0.05,  "mount": "wall"},
+    {"key": "cold_water_outlet",  "revit": "OUT301 Cold Water Outlet",         "wall": "E", "along": 1.05,  "len": 0.05,  "depth": 0.05,  "back": 0.2,   "elev": 1.11,  "h": 0.05,  "mount": "wall"},
+    {"key": "tundish_drain",      "revit": "OUT347 Tundish Drain",             "wall": "E", "along": 0.555, "len": 0.05,  "depth": 0.05,  "back": 0.15,  "elev": 0.0,   "h": 0.05,  "mount": "wall"},
+    {"key": "data_single",        "revit": "OUT121 Socket Outlet Data",        "wall": "E", "along": 1.245, "len": 0.1,   "depth": 0.05,  "back": 0.0,   "elev": 0.45,  "h": 0.1,   "mount": "wall"},
+
+    {"key": "clinical_wash_basin","revit": "A-BAS908 Wash Hand Basin Assembly","wall": "S", "along": 0.0,   "len": 0.9,   "depth": 0.621, "back": 0.0,   "elev": 0.0,   "h": 0.9,   "mount": "floor"},
+    {"key": "soap_dispenser",     "revit": "DIS930 Soap Dispenser",            "wall": "S", "along": 0.225, "len": 0.101, "depth": 0.094, "back": 0.221, "elev": 1.252, "h": 0.269, "mount": "wall"},
+    {"key": "paper_towel",        "revit": "DIS913 Paper Towel Dispenser",     "wall": "S", "along": 0.936, "len": 0.26,  "depth": 0.124, "back": 0.0,   "elev": 1.2,   "h": 0.378, "mount": "wall"},
+    {"key": "biohazard_bin",      "revit": "HOL004 Small Sack Holder",         "wall": "S", "along": 0.936, "len": 0.275, "depth": 0.275, "back": 0.136, "elev": 0.0,   "h": 0.6,   "mount": "floor"},
+    {"key": "biohazard_bin",      "revit": "HOL004 Small Sack Holder",         "wall": "S", "along": 1.226, "len": 0.275, "depth": 0.275, "back": 0.136, "elev": 0.0,   "h": 0.6,   "mount": "floor"},
+    {"key": "ppe_station",        "revit": "DIS438 Disposable Gloves & Apron Dispenser", "wall": "S", "along": 1.239, "len": 0.56, "depth": 0.145, "back": 0.0, "elev": 1.253, "h": 0.48, "mount": "wall"},
+    {"key": "sanitiser_unit",     "revit": "DIS926 Hand Sanitiser Dispenser",  "wall": "S", "along": 1.855, "len": 0.101, "depth": 0.094, "back": 0.0,   "elev": 1.253, "h": 0.269, "mount": "wall"},
+    {"key": "linen_trolley",      "revit": "TRO235 Soiled Linen Trolley",      "wall": "S", "along": 2.123, "len": 0.45,  "depth": 0.45,  "back": 0.021, "elev": 0.0,   "h": 0.825, "mount": "floor"},
+    {"key": "linen_trolley",      "revit": "TRO235 Soiled Linen Trolley",      "wall": "S", "along": 2.62,  "len": 0.45,  "depth": 0.45,  "back": 0.017, "elev": 0.0,   "h": 0.825, "mount": "floor"},
+    {"key": "linen_trolley",      "revit": "TRO235 Soiled Linen Trolley",      "wall": "S", "along": 3.123, "len": 0.45,  "depth": 0.45,  "back": 0.012, "elev": 0.0,   "h": 0.825, "mount": "floor"},
+
+    {"key": "entry_door",         "revit": "IDT 5A Sliding Door 1077x2205 (860x2050 C/O) FD30S", "wall": "W", "along": 0.818, "len": 0.86, "depth": 0.1, "back": 0.0, "elev": 0.0, "h": 2.05, "mount": "floor"},
+    {"key": "pressure_stabiliser","revit": "APS902 Fire Rated Pressure Stabiliser", "wall": "W", "along": 0.105, "len": 0.5, "depth": 0.05,  "back": 0.0,   "elev": 0.3,   "h": 0.35,  "mount": "wall"},
+    {"key": "socket_single",      "revit": "OUT005 Single Switched Plug Socket","wall": "W", "along": 1.922, "len": 0.086, "depth": 0.05,  "back": 0.0,   "elev": 0.45,  "h": 0.086, "mount": "wall"},
+    {"key": "call_lamp",          "revit": "CAL920 Call Lamp and Sounder",     "wall": "W", "along": 1.173, "len": 0.14,  "depth": 0.05,  "back": 0.0,   "elev": 2.288, "h": 0.14,  "mount": "wall"},
+    {"key": "door_open_button",   "revit": "SWC901 Assisted Door Touchless Button", "wall": "W", "along": 1.922, "len": 0.086, "depth": 0.05, "back": 0.0, "elev": 1.1, "h": 0.086, "mount": "wall"}
+  ],
+  "ceiling_items": [
+    {"key": "ceiling_light",   "revit": "LIG909 Flush LED Panel 600x600",  "cx": 0.605, "cy": 1.248, "w": 0.6,  "d": 0.6,  "h": 0.045},
+    {"key": "ceiling_light",   "revit": "LIG909 Flush LED Panel 600x600",  "cx": 2.285, "cy": 1.248, "w": 0.6,  "d": 0.6,  "h": 0.045},
+    {"key": "exhaust_vent",    "revit": "EXT901 Ceiling Extract 600x600",  "cx": 3.004, "cy": 1.243, "w": 0.6,  "d": 0.6,  "h": 0.155},
+    {"key": "wifi_ap",         "revit": "WAP904 Wireless Access Point",    "cx": 1.206, "cy": 1.247, "w": 0.18, "d": 0.18, "h": 0.05},
+    {"key": "presence_sensor", "revit": "PIR910 PIR Presence Detector",    "cx": 1.642, "cy": 1.243, "w": 0.09, "d": 0.09, "h": 0.043},
+    {"key": "smoke_detector",  "revit": "DET003 Smoke Detector",           "cx": 1.205, "cy": 0.647, "w": 0.11, "d": 0.11, "h": 0.05},
+    {"key": "emergency_light", "revit": "LIG959 Emergency Light",          "cx": 1.205, "cy": 1.848, "w": 0.06, "d": 0.06, "h": 0.032}
+  ]
+}

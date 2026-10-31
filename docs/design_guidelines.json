@@ -1,0 +1,97 @@
+{
+  "project_name": "Healthcare Co-design Platform (Perkins & Will + HIS)",
+  "theme": "Light",
+  "typography": {
+    "font_family": "SF Pro Display / SF Pro Text (with Inter fallback)",
+    "headings": {
+      "h1": "text-6xl sm:text-7xl font-semibold tracking-tighter text-[#1D1D1F] leading-tight",
+      "h2": "text-4xl sm:text-5xl font-semibold tracking-tight text-[#1D1D1F]",
+      "h3": "text-2xl sm:text-3xl font-medium tracking-tight text-[#1D1D1F]"
+    },
+    "body": "text-base md:text-lg text-[#1D1D1F]/80 leading-relaxed font-normal",
+    "branding": "Wordmark only. `<span className=\"font-semibold tracking-tight text-xl\">Perkins&Will</span>`. ABSOLUTELY NO logo tile, visual mark, or 'H' mark."
+  },
+  "colors": {
+    "background": {
+      "primary": "#FBFBFD",
+      "secondary": "#F5F5F7",
+      "surface": "#FFFFFF"
+    },
+    "text": {
+      "primary": "#1D1D1F",
+      "secondary": "#86868B",
+      "inverse": "#FFFFFF"
+    },
+    "semantic": {
+      "clean": "#34C759",
+      "transition": "#FF9500",
+      "dirty": "#FF3B30",
+      "accent": "#007AFF"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": ".hb-glass (backdrop-blur-xl bg-white/70 border-b border-black/5)",
+    "shadows": "Apple style subtle shadows: shadow-[0_4px_24px_rgba(0,0,0,0.06)] for product cards, shadow-2xl for floating FABs.",
+    "border_radius": "rounded-3xl for major marketing cards, rounded-2xl for app panels, rounded-full for buttons/FABs."
+  },
+  "layouts": {
+    "landing": "Apple.com/ca marketing style. Massive center-aligned hero text. High contrast product tiles (bento grid) with alternating dark/light themes. Generous vertical rhythm (py-24 or py-32).",
+    "dashboard_estate": "Grid of hierarchy nodes. Think Apple App Store or iCloud Drive tiles. bg-[#F5F5F7] background with white cards, subtle borders, and clean typography.",
+    "room_editor": "Pro-tool workspace (Figma/Linear layout meets Apple UI). 3-column structure. Fixed left/right sidebars with central 2D/3D split canvas. Dense but breathable padding (p-4)."
+  },
+  "motion": {
+    "transitions": "Subtle spring transitions via framer-motion. `transition={{ type: 'spring', stiffness: 300, damping: 30 }}`",
+    "interactions": "Hover states on cards slightly lift (`-translate-y-1`) with deeper shadow. Buttons scale down on click (`whileTap={{ scale: 0.97 }}`)."
+  },
+  "blueprint": {
+    "Landing.jsx": {
+      "layout": "Sticky glass nav. Hero section (py-32). Product bento grid.",
+      "copy": "Hero: 'The best way to design healthcare rooms.' Subtext: 'Intelligent compliance meets photorealistic co-design.'",
+      "type_scale": "Hero H1: text-6xl md:text-7xl tracking-tighter. Subtext: text-xl md:text-2xl text-[#86868B].",
+      "spacing": "Hero container: flex flex-col items-center text-center gap-6. Section spacing: py-32.",
+      "motion": "Fade up and staggered entrance for hero text and grid tiles."
+    },
+    "Dashboard.jsx": {
+      "layout": "Estate browser card grid. Filter/Search bar at top.",
+      "type_scale": "Page Title: text-4xl tracking-tight. Card Title: text-xl font-medium.",
+      "spacing": "Page wrapper: bg-[#F5F5F7] min-h-screen p-8. Grid: grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6.",
+      "ui_details": "Cards are bg-white, rounded-3xl, shadow-sm hover:shadow-md. Clean lucide-react icons for Estate/Building/Zone nodes."
+    },
+    "RoomEditor.jsx": {
+      "layout": "H-screen flex layout. Left Sidebar (w-64, Palette/Checks/Log tabs). Center (flex-1 2D/3D canvas). Right Sidebar (w-80, Properties/Renders). Bottom-right FAB.",
+      "sub_header": "Top toolbar (.hb-glass, h-14). Left: View toggle (2D/3D). Center: Standard, Save, Validate. Right: Make compliant (deep autofix), Render.",
+      "type_scale": "Sidebar Headers: text-sm tracking-wide text-[#86868B] uppercase. Panel text: text-sm.",
+      "fab": "Absolute bottom-8 right-8. rounded-full bg-[#1D1D1F] text-white p-4 shadow-2xl. Icon: MessageCircle or Sparkles (lucide-react)."
+    },
+    "Shared.jsx": {
+      "top_bar": "Sticky fixed top-0 w-full z-50 .hb-glass h-14 flex items-center justify-between px-8.",
+      "wordmark": "`<span className='font-semibold tracking-tight text-xl text-[#1D1D1F]'>Perkins&Will</span>` - strictly no SVG/logo."
+    }
+  },
+  "accessibility": {
+    "testing": "CRITICAL: Preserve every existing `data-testid`. DO NOT REMOVE OR ALTER THEM.",
+    "contrast": "Maintain 4.5:1 ratio. Text on #FBFBFD must be #1D1D1F or #86868B (for secondary)."
+  },
+  "media": {
+    "icons": "lucide-react strictly. No emojis anywhere.",
+    "image_urls": [
+      {
+        "url": "https://images.unsplash.com/photo-1520529890308-f503006340b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwzfHxtaW5pbWFsaXN0JTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBjbGVhbnxlbnwwfHx8fDE3ODQxNjk5OTl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Minimalist clean architecture. Use as abstract aesthetic background for Landing page Hero or feature sections.",
+        "category": "background"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1601993957728-1e56ab70c5a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHw0fHxtaW5pbWFsaXN0JTIwYXJjaGl0ZWN0dXJlJTIwaW50ZXJpb3IlMjBjbGVhbnxlbnwwfHx8fDE3ODQxNjk5OTl8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Clean architectural detail. Good for Apple-style high-contrast bento tiles.",
+        "category": "product_tile"
+      }
+    ]
+  },
+  "implementation_notes": [
+    "STRIP OUT all SVG and image logos. Replace with Wordmark only (`<span className='font-semibold tracking-tight text-xl'>Perkins&Will</span>`).",
+    "Adopt the Apple.com/ca visual language: #FBFBFD backgrounds, deep black (#1D1D1F) massive typography with tight tracking, and extreme minimalism.",
+    "Utilize semantic colors for zones exactly as requested: Green (#34C759) = clean, Amber (#FF9500) = transition, Red (#FF3B30) = dirty.",
+    "Do not add any new heavy dependencies. Use framer-motion, lucide-react, tailwind, and shadcn as already provided."
+  ],
+  "general_guidelines": "Focus on extreme simplicity and refinement. Hide complexity until needed. Use backdrop-blur (.hb-glass) for depth instead of heavy shadows. Ensure generous padding in marketing areas (py-32), and highly disciplined tight padding in app workspaces (p-4). Buttons should be pill-shaped. No Emojis."
+}

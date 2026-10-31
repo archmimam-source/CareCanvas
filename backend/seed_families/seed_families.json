@@ -1,0 +1,2459 @@
+[
+  {
+    "id": "af4ef24c-9596-4047-bbb0-d51998e12d52",
+    "filename": "0pgte466_IDP_Furniture_WKT992-HEAVY DUTY WORKBENCH.rfa",
+    "sha256": "619efaef2f2de50f",
+    "size": 835584,
+    "path": "619efaef2f2de50f_0pgte466_IDP_Furniture_WKT992-HEAVY_DUTY_WORKBENCH.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:54.485914+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "af4ef24c-9596-4047-bbb0-d51998e12d52",
+        "name": "Heavy Duty Workbench",
+        "family_title_full": "IDP_Furniture_WKT992-HEAVY DUTY WORKBENCH",
+        "ifc_type": "RFA",
+        "predefined_type": "WORKBENCH",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "prep_counter",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:workbench"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_WKT992-HEAVY DUTY WORKBENCH",
+            "category": "23.40.20.00",
+            "description": "HEAVY DUTY WORKBENCH",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_30_30_96\u00a0: Worktops",
+            "version": "",
+            "reference": "Pr_40_30_30_78"
+          },
+          "Dimensions": {
+            "size_text": "User Defined",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": "WORKBENCH"
+          },
+          "Warranty": {
+            "duration_unit": "year",
+            "replacement_cost": "n/a"
+          }
+        },
+        "thumbnail_url": "/api/families/af4ef24c-9596-4047-bbb0-d51998e12d52/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_WKT992-HEAVY DUTY WORKBENCH",
+      "family_name": "Heavy Duty Workbench",
+      "category": "23.40.20.00",
+      "description": "HEAVY DUTY WORKBENCH",
+      "size_text": "User Defined",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "WORKBENCH",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_30_30_96\u00a0: Worktops",
+        "version": "",
+        "reference": "Pr_40_30_30_78"
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "year",
+      "replacement_cost": "n/a",
+      "revit_product": null,
+      "component_key_suggested": "prep_counter",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:workbench"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "f035cff1-75be-4694-8483-f0741206bc11",
+    "filename": "3hkthc3t_IDP_Plumbing Fixtures_PAN923-SANITARY IPS.rfa",
+    "sha256": "5b35727a82903fd4",
+    "size": 483328,
+    "path": "5b35727a82903fd4_3hkthc3t_IDP_Plumbing_Fixtures_PAN923-SANITARY_IPS.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:54.646586+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "f035cff1-75be-4694-8483-f0741206bc11",
+        "name": "Sanitary Ips",
+        "family_title_full": "IDP_Plumbing Fixtures_PAN923-SANITARY IPS",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "sanitary_ips",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:sanitary ips"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Plumbing Fixtures_PAN923-SANITARY IPS",
+            "category": "Plumbing Fixtures",
+            "description": "SANITARY IPS",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_20_76 : Sanitary accessories",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/f035cff1-75be-4694-8483-f0741206bc11/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Plumbing Fixtures_PAN923-SANITARY IPS",
+      "family_name": "Sanitary Ips",
+      "category": "Plumbing Fixtures",
+      "description": "SANITARY IPS",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_20_76 : Sanitary accessories",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "sanitary_ips",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:sanitary ips"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "9960f486-1c91-4e76-8d91-8ac51f3887c6",
+    "filename": "4th515vm_IDP_Plumbing Fixtures_OUT347-TUNDISH DRAIN.rfa",
+    "sha256": "bdf7bd898eb5825f",
+    "size": 466944,
+    "path": "bdf7bd898eb5825f_4th515vm_IDP_Plumbing_Fixtures_OUT347-TUNDISH_DRAIN.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:54.835989+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "9960f486-1c91-4e76-8d91-8ac51f3887c6",
+        "name": "Tundish Drain",
+        "family_title_full": "IDP_Plumbing Fixtures_OUT347-TUNDISH DRAIN",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "tundish_drain",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:tundish"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Plumbing Fixtures_OUT347-TUNDISH DRAIN",
+            "category": "Plumbing Fixtures",
+            "description": "TUNDISH DRAIN",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_65_52_61_91\u00a0: Tundishes",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/9960f486-1c91-4e76-8d91-8ac51f3887c6/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Plumbing Fixtures_OUT347-TUNDISH DRAIN",
+      "family_name": "Tundish Drain",
+      "category": "Plumbing Fixtures",
+      "description": "TUNDISH DRAIN",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_65_52_61_91\u00a0: Tundishes",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "tundish_drain",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:tundish"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "8e7c7d16-c42f-4e02-b1cd-8bbcccb08d2a",
+    "filename": "567dgl6i_IDP_Fire Protection_APS902-FIRE RATED PRESSURE STABILISER.rfa",
+    "sha256": "dc5540066ff22202",
+    "size": 495616,
+    "path": "dc5540066ff22202_567dgl6i_IDP_Fire_Protection_APS902-FIRE_RATED_PRESSURE_STABILISER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:55.008579+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "8e7c7d16-c42f-4e02-b1cd-8bbcccb08d2a",
+        "name": "Fire Rated Pressure Stabiliser",
+        "family_title_full": "IDP_Fire Protection_APS902-FIRE RATED PRESSURE STABILISER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "pressure_stabiliser",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:pressure stabiliser"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Fire Protection_APS902-FIRE RATED PRESSURE STABILISER",
+            "category": "Fire Protection",
+            "description": "FIRE RATED PRESSURE STABILISER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_75_50_18_31 : Fire-suppression system indicator panels",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/8e7c7d16-c42f-4e02-b1cd-8bbcccb08d2a/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Fire Protection_APS902-FIRE RATED PRESSURE STABILISER",
+      "family_name": "Fire Rated Pressure Stabiliser",
+      "category": "Fire Protection",
+      "description": "FIRE RATED PRESSURE STABILISER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_75_50_18_31 : Fire-suppression system indicator panels",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "pressure_stabiliser",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:pressure stabiliser"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "a78e3664-7842-4d49-996c-ca9c383fa2dd",
+    "filename": "btaxanek_IDP_Electrical Fixtures_OUT931-CONNECTION BOX 32AMP.rfa",
+    "sha256": "d5d0d22918814bfb",
+    "size": 458752,
+    "path": "d5d0d22918814bfb_btaxanek_IDP_Electrical_Fixtures_OUT931-CONNECTION_BOX_32AMP.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:55.207950+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "a78e3664-7842-4d49-996c-ca9c383fa2dd",
+        "name": "Connection Box 32amp",
+        "family_title_full": "IDP_Electrical Fixtures_OUT931-CONNECTION BOX 32AMP",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "connection_box_32a",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:connection box"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT931-CONNECTION BOX 32AMP",
+            "category": "Electrical Fixtures",
+            "description": "CONNECTION BOX 32AMP",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_65_72_97_27 : Electrical connection boxes",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/a78e3664-7842-4d49-996c-ca9c383fa2dd/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT931-CONNECTION BOX 32AMP",
+      "family_name": "Connection Box 32amp",
+      "category": "Electrical Fixtures",
+      "description": "CONNECTION BOX 32AMP",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_65_72_97_27 : Electrical connection boxes",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "connection_box_32a",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:connection box"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "2d339329-5021-4848-9b3e-77ee4408d608",
+    "filename": "bzjw1kk2_IDP_Electrical Fixtures_OUT121-SOCKET OUTLET DATA.rfa",
+    "sha256": "5279fe6c58653a8c",
+    "size": 454656,
+    "path": "5279fe6c58653a8c_bzjw1kk2_IDP_Electrical_Fixtures_OUT121-SOCKET_OUTLET_DATA.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:55.615532+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "2d339329-5021-4848-9b3e-77ee4408d608",
+        "name": "Socket Outlet Data",
+        "family_title_full": "IDP_Electrical Fixtures_OUT121-SOCKET OUTLET DATA",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "data_single",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:socket outlet data"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT121-SOCKET OUTLET DATA",
+            "category": "Electrical Fixtures",
+            "description": "SOCKET OUTLET DATA",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_70_75_04\u00a0: Audio, data and visual outlet plates and controllers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/2d339329-5021-4848-9b3e-77ee4408d608/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT121-SOCKET OUTLET DATA",
+      "family_name": "Socket Outlet Data",
+      "category": "Electrical Fixtures",
+      "description": "SOCKET OUTLET DATA",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_70_75_04\u00a0: Audio, data and visual outlet plates and controllers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "data_single",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:socket outlet data"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "e13c5edc-270d-4c53-aca3-a5c93ccdb58c",
+    "filename": "e5it1omj_IDP_Plumbing Fixtures_A-BAS908-WASH HAND BASIN ASSEMBLY.rfa",
+    "sha256": "9ba40db99931e5e2",
+    "size": 1683456,
+    "path": "9ba40db99931e5e2_e5it1omj_IDP_Plumbing_Fixtures_A-BAS908-WASH_HAND_BASIN_ASSEMBLY.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.049991+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "e13c5edc-270d-4c53-aca3-a5c93ccdb58c",
+        "name": "Bas908-wash Hand Basin Assembly",
+        "family_title_full": "IDP_Plumbing Fixtures_A-BAS908-WASH HAND BASIN ASSEMBLY",
+        "ifc_type": "RFA",
+        "predefined_type": "PLUMBINGWALL",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "clinical_wash_basin",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:wash hand basin"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Plumbing Fixtures_A-BAS908-WASH HAND BASIN ASSEMBLY",
+            "category": "Plumbing Fixtures",
+            "description": "WASH HAND BASIN ASSEMBLY",
+            "manufacturer": "n/a",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_20_96_35 : Healthcare clinical washbasins",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "n/a",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": "PLUMBINGWALL"
+          },
+          "Warranty": {
+            "duration_unit": "year",
+            "replacement_cost": "n/a"
+          }
+        },
+        "thumbnail_url": "/api/families/e13c5edc-270d-4c53-aca3-a5c93ccdb58c/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Plumbing Fixtures_A-BAS908-WASH HAND BASIN ASSEMBLY",
+      "family_name": "Bas908-wash Hand Basin Assembly",
+      "category": "Plumbing Fixtures",
+      "description": "WASH HAND BASIN ASSEMBLY",
+      "size_text": "n/a",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "PLUMBINGWALL",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_20_96_35 : Healthcare clinical washbasins",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "n/a",
+      "warranty_duration_unit": "year",
+      "replacement_cost": "n/a",
+      "revit_product": null,
+      "component_key_suggested": "clinical_wash_basin",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:wash hand basin"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "6627d7f8-2dcd-4d2e-8bb8-bbe0d6914ae4",
+    "filename": "f8ov4ixc_IDP_Furniture_HOL004-SMALL SACK HOLDER.rfa",
+    "sha256": "3798b1c509549e74",
+    "size": 454656,
+    "path": "3798b1c509549e74_f8ov4ixc_IDP_Furniture_HOL004-SMALL_SACK_HOLDER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.226640+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "6627d7f8-2dcd-4d2e-8bb8-bbe0d6914ae4",
+        "name": "Small Sack Holder",
+        "family_title_full": "IDP_Furniture_HOL004-SMALL SACK HOLDER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "biohazard_bin",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:sack holder"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_HOL004-SMALL SACK HOLDER",
+            "category": "Furniture",
+            "description": "SMALL SACK HOLDER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_50_84_10\u00a0: Bucket holders",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/6627d7f8-2dcd-4d2e-8bb8-bbe0d6914ae4/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_HOL004-SMALL SACK HOLDER",
+      "family_name": "Small Sack Holder",
+      "category": "Furniture",
+      "description": "SMALL SACK HOLDER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_50_84_10\u00a0: Bucket holders",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "biohazard_bin",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:sack holder"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "47ccc3d2-180a-4027-adc8-7dd560b666a1",
+    "filename": "fy8ghgqt_IDP_Furniture_SPL901-SPLASH PANEL.rfa",
+    "sha256": "603920355c277070",
+    "size": 471040,
+    "path": "603920355c277070_fy8ghgqt_IDP_Furniture_SPL901-SPLASH_PANEL.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.391906+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "47ccc3d2-180a-4027-adc8-7dd560b666a1",
+        "name": "Splash Panel",
+        "family_title_full": "IDP_Furniture_SPL901-SPLASH PANEL",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "steel_tray",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:splash panel"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_SPL901-SPLASH PANEL",
+            "category": "Furniture",
+            "description": "SPLASH PANEL",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_20_76_83 : Splashbacks",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/47ccc3d2-180a-4027-adc8-7dd560b666a1/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_SPL901-SPLASH PANEL",
+      "family_name": "Splash Panel",
+      "category": "Furniture",
+      "description": "SPLASH PANEL",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_20_76_83 : Splashbacks",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "steel_tray",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:splash panel"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "347bca15-42a4-4d9f-8516-93b5543d73d9",
+    "filename": "hhdri2s2_IDP_Nurse Call Devices_CAL920-CALL LAMP AND SOUNDER.rfa",
+    "sha256": "623a03c3ccaa2321",
+    "size": 458752,
+    "path": "623a03c3ccaa2321_hhdri2s2_IDP_Nurse_Call_Devices_CAL920-CALL_LAMP_AND_SOUNDER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.558811+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "347bca15-42a4-4d9f-8516-93b5543d73d9",
+        "name": "Call Lamp And Sounder",
+        "family_title_full": "IDP_Nurse Call Devices_CAL920-CALL LAMP AND SOUNDER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "nurse_call_lamp",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:nurse call"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Nurse Call Devices_CAL920-CALL LAMP AND SOUNDER",
+            "category": "Nurse Call Devices",
+            "description": "CALL LAMP AND SOUNDER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_75_75_04_57\u00a0: Nurse call units",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/347bca15-42a4-4d9f-8516-93b5543d73d9/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Nurse Call Devices_CAL920-CALL LAMP AND SOUNDER",
+      "family_name": "Call Lamp And Sounder",
+      "category": "Nurse Call Devices",
+      "description": "CALL LAMP AND SOUNDER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_75_75_04_57\u00a0: Nurse call units",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "nurse_call_lamp",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:nurse call"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "921fb64d-3a59-4835-9888-cb24aed7835e",
+    "filename": "hxcu8vop_IDP_Plumbing Fixtures_OUT301-COLD WATER OUTLET.rfa",
+    "sha256": "719559c01fed8b65",
+    "size": 450560,
+    "path": "719559c01fed8b65_hxcu8vop_IDP_Plumbing_Fixtures_OUT301-COLD_WATER_OUTLET.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.727462+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "921fb64d-3a59-4835-9888-cb24aed7835e",
+        "name": "Cold Water Outlet",
+        "family_title_full": "IDP_Plumbing Fixtures_OUT301-COLD WATER OUTLET",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "cold_water_outlet",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:cold water"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Plumbing Fixtures_OUT301-COLD WATER OUTLET",
+            "category": "Plumbing Fixtures",
+            "description": "COLD WATER OUTLET",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_70_55_98_85 : Stand pipe outlets",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/921fb64d-3a59-4835-9888-cb24aed7835e/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Plumbing Fixtures_OUT301-COLD WATER OUTLET",
+      "family_name": "Cold Water Outlet",
+      "category": "Plumbing Fixtures",
+      "description": "COLD WATER OUTLET",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_70_55_98_85 : Stand pipe outlets",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "cold_water_outlet",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:cold water"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "2b438280-5afd-4afe-83cb-f4f8ceedc176",
+    "filename": "ijukgwg5_IDP_Furniture_BRA903-BRACKET SHELVING.rfa",
+    "sha256": "836e1133bf58dd67",
+    "size": 475136,
+    "path": "836e1133bf58dd67_ijukgwg5_IDP_Furniture_BRA903-BRACKET_SHELVING.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:56.892240+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "2b438280-5afd-4afe-83cb-f4f8ceedc176",
+        "name": "Bracket Shelving",
+        "family_title_full": "IDP_Furniture_BRA903-BRACKET SHELVING",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "shelf_bracket",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:bracket shelving"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_BRA903-BRACKET SHELVING",
+            "category": "Furniture",
+            "description": "BRACKET SHELVING",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_30_78 : Shelves, hangers and racks",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/2b438280-5afd-4afe-83cb-f4f8ceedc176/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_BRA903-BRACKET SHELVING",
+      "family_name": "Bracket Shelving",
+      "category": "Furniture",
+      "description": "BRACKET SHELVING",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_30_78 : Shelves, hangers and racks",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "shelf_bracket",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:bracket shelving"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "cf025318-3681-43e8-8662-3782b8e71fdd",
+    "filename": "jjx1le5c_IDP_Furniture Systems_CUP911-COSHH CABINET.rfa",
+    "sha256": "b4b791c9d4337403",
+    "size": 643072,
+    "path": "b4b791c9d4337403_jjx1le5c_IDP_Furniture_Systems_CUP911-COSHH_CABINET.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.072453+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "cf025318-3681-43e8-8662-3782b8e71fdd",
+        "name": "Coshh Cabinet",
+        "family_title_full": "IDP_Furniture Systems_CUP911-COSHH CABINET",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "cabinet_coshh",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:coshh"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture Systems_CUP911-COSHH CABINET",
+            "category": "Furniture Systems",
+            "description": "COSHH CABINET",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_80_77_28_28 : Fire equipment cabinets",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/cf025318-3681-43e8-8662-3782b8e71fdd/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture Systems_CUP911-COSHH CABINET",
+      "family_name": "Coshh Cabinet",
+      "category": "Furniture Systems",
+      "description": "COSHH CABINET",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_80_77_28_28 : Fire equipment cabinets",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "cabinet_coshh",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:coshh"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "f500401b-dfaa-486b-9f62-ffbda28b37a0",
+    "filename": "lmen183o_IDP_Furniture_SMS010-MODULAR STORAGE SLOPING TOP.rfa",
+    "sha256": "153e560c02f290e6",
+    "size": 458752,
+    "path": "153e560c02f290e6_lmen183o_IDP_Furniture_SMS010-MODULAR_STORAGE_SLOPING_TOP.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.252748+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "f500401b-dfaa-486b-9f62-ffbda28b37a0",
+        "name": "Modular Storage Sloping Top",
+        "family_title_full": "IDP_Furniture_SMS010-MODULAR STORAGE SLOPING TOP",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "sloping_storage",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:sloping"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_SMS010-MODULAR STORAGE SLOPING TOP",
+            "category": "Furniture",
+            "description": "MODULAR STORAGE SLOPING TOP",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_80_77_28 : Equipment enclosures, cabinets, boxes and housings",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/f500401b-dfaa-486b-9f62-ffbda28b37a0/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_SMS010-MODULAR STORAGE SLOPING TOP",
+      "family_name": "Modular Storage Sloping Top",
+      "category": "Furniture",
+      "description": "MODULAR STORAGE SLOPING TOP",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_80_77_28 : Equipment enclosures, cabinets, boxes and housings",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "sloping_storage",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:sloping"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "31d03b5d-f7e6-4f86-92c6-9b635c0c7ae5",
+    "filename": "n96986zr_IDP_Furniture_DIS064-WIPES DISPENSER.rfa",
+    "sha256": "352c30a52b60c80c",
+    "size": 446464,
+    "path": "352c30a52b60c80c_n96986zr_IDP_Furniture_DIS064-WIPES_DISPENSER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.434612+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "31d03b5d-f7e6-4f86-92c6-9b635c0c7ae5",
+        "name": "Wipes Dispenser",
+        "family_title_full": "IDP_Furniture_DIS064-WIPES DISPENSER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "wipes_dispenser",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:wipes"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_DIS064-WIPES DISPENSER",
+            "category": "Furniture",
+            "description": "WIPES DISPENSER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22_85\u00a0: Surface wipe dispensers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/31d03b5d-f7e6-4f86-92c6-9b635c0c7ae5/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_DIS064-WIPES DISPENSER",
+      "family_name": "Wipes Dispenser",
+      "category": "Furniture",
+      "description": "WIPES DISPENSER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22_85\u00a0: Surface wipe dispensers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "wipes_dispenser",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:wipes"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "831aec1a-7087-447c-ac21-9b099edb7540",
+    "filename": "ohh5w4fy_IDP_Plumbing Fixtures_DSU901-MACERATOR DISPOSAL UNIT.rfa",
+    "sha256": "2c6c165fdc37f2cb",
+    "size": 606208,
+    "path": "2c6c165fdc37f2cb_ohh5w4fy_IDP_Plumbing_Fixtures_DSU901-MACERATOR_DISPOSAL_UNIT.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.609745+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "831aec1a-7087-447c-ac21-9b099edb7540",
+        "name": "Macerator Disposal Unit",
+        "family_title_full": "IDP_Plumbing Fixtures_DSU901-MACERATOR DISPOSAL UNIT",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "macerator",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:macerator"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Plumbing Fixtures_DSU901-MACERATOR DISPOSAL UNIT",
+            "category": "Plumbing Fixtures",
+            "description": "MACERATOR DISPOSAL UNIT",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22 : Dispensers and acceptance units",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/831aec1a-7087-447c-ac21-9b099edb7540/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Plumbing Fixtures_DSU901-MACERATOR DISPOSAL UNIT",
+      "family_name": "Macerator Disposal Unit",
+      "category": "Plumbing Fixtures",
+      "description": "MACERATOR DISPOSAL UNIT",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22 : Dispensers and acceptance units",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "macerator",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:macerator"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "cb088e12-c37b-4d50-893b-f1271d5cc481",
+    "filename": "oupgvixk_IDP_Electrical Fixtures_OUT010-TWIN SOCKET OUTLET.rfa",
+    "sha256": "46405aec66830294",
+    "size": 724992,
+    "path": "46405aec66830294_oupgvixk_IDP_Electrical_Fixtures_OUT010-TWIN_SOCKET_OUTLET.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.790361+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "cb088e12-c37b-4d50-893b-f1271d5cc481",
+        "name": "Twin Socket Outlet",
+        "family_title_full": "IDP_Electrical Fixtures_OUT010-TWIN SOCKET OUTLET",
+        "ifc_type": "RFA",
+        "predefined_type": "POWEROUTLET",
+        "dimensions": {
+          "w": 0.146,
+          "d": 0.0832,
+          "h": 0.0443
+        },
+        "component_key_suggested": "socket_twin",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:twin socket"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT010-TWIN SOCKET OUTLET",
+            "category": "Electrical Fixtures",
+            "description": "Standard socket outlets",
+            "manufacturer": "n/a",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_65_72_97_19\u00a0: Combination socket outlet units",
+            "version": "Products v1.1",
+            "reference": "Pr_65_72_97_84"
+          },
+          "Dimensions": {
+            "size_text": "146 x 83.2 x 44.3 mm",
+            "w": 0.146,
+            "d": 0.0832,
+            "h": 0.0443
+          },
+          "Standards": {
+            "standard": "To BS 1363-2",
+            "ifc_predefined_type": "POWEROUTLET"
+          },
+          "Warranty": {
+            "duration_unit": "year",
+            "replacement_cost": "n/a"
+          }
+        },
+        "thumbnail_url": "/api/families/cb088e12-c37b-4d50-893b-f1271d5cc481/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT010-TWIN SOCKET OUTLET",
+      "family_name": "Twin Socket Outlet",
+      "category": "Electrical Fixtures",
+      "description": "Standard socket outlets",
+      "size_text": "146 x 83.2 x 44.3 mm",
+      "dimensions": {
+        "w": 0.146,
+        "d": 0.0832,
+        "h": 0.0443
+      },
+      "ifc_predefined_type": "POWEROUTLET",
+      "standard": "To BS 1363-2",
+      "uniclass": {
+        "code": "Pr_65_72_97_19\u00a0: Combination socket outlet units",
+        "version": "Products v1.1",
+        "reference": "Pr_65_72_97_84"
+      },
+      "manufacturer": "n/a",
+      "warranty_duration_unit": "year",
+      "replacement_cost": "n/a",
+      "revit_product": null,
+      "component_key_suggested": "socket_twin",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:twin socket"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "3e6f3387-548c-496b-bf4b-8171af0fb15b",
+    "filename": "p2f4s774_IDP_Electrical Fixtures_SWC901-ASSISTED DOOR TOUCHLESS BUTTON.rfa",
+    "sha256": "3a459a050df9a155",
+    "size": 462848,
+    "path": "3a459a050df9a155_p2f4s774_IDP_Electrical_Fixtures_SWC901-ASSISTED_DOOR_TOUCHLESS_BUTTON.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:57.963530+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "3e6f3387-548c-496b-bf4b-8171af0fb15b",
+        "name": "Assisted Door Touchless Button",
+        "family_title_full": "IDP_Electrical Fixtures_SWC901-ASSISTED DOOR TOUCHLESS BUTTON",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "door_open_button",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:touchless button"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_SWC901-ASSISTED DOOR TOUCHLESS BUTTON",
+            "category": "Electrical Fixtures",
+            "description": "ASSISTED DOOR TOUCHLESS BUTTON",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_75_51_17_66\u00a0: Push-button switches",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/3e6f3387-548c-496b-bf4b-8171af0fb15b/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_SWC901-ASSISTED DOOR TOUCHLESS BUTTON",
+      "family_name": "Assisted Door Touchless Button",
+      "category": "Electrical Fixtures",
+      "description": "ASSISTED DOOR TOUCHLESS BUTTON",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_75_51_17_66\u00a0: Push-button switches",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "door_open_button",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:touchless button"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "c4fca8e0-c414-410f-8d3d-394446e300aa",
+    "filename": "pr56qn2y_IDP_Specialty Equipment_SCA900-SCALE URINE WEIGHING.rfa",
+    "sha256": "87615d776a2adbc2",
+    "size": 458752,
+    "path": "87615d776a2adbc2_pr56qn2y_IDP_Specialty_Equipment_SCA900-SCALE_URINE_WEIGHING.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:58.151628+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "c4fca8e0-c414-410f-8d3d-394446e300aa",
+        "name": "Scale Urine Weighing",
+        "family_title_full": "IDP_Specialty Equipment_SCA900-SCALE URINE WEIGHING",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "urine_scale",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:urine"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Specialty Equipment_SCA900-SCALE URINE WEIGHING",
+            "category": "Specialty Equipment",
+            "description": "SCALE URINE WEIGHING",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_80_51_70_51\u00a0: Measurement scales",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/c4fca8e0-c414-410f-8d3d-394446e300aa/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Specialty Equipment_SCA900-SCALE URINE WEIGHING",
+      "family_name": "Scale Urine Weighing",
+      "category": "Specialty Equipment",
+      "description": "SCALE URINE WEIGHING",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_80_51_70_51\u00a0: Measurement scales",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "urine_scale",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:urine"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "6046c52b-bada-4b7b-b181-a7b206d5ab25",
+    "filename": "q7digabm_IDP_Furniture_DIS913-PAPER TOWEL DISPENSER.rfa",
+    "sha256": "49c47646c73d8394",
+    "size": 614400,
+    "path": "49c47646c73d8394_q7digabm_IDP_Furniture_DIS913-PAPER_TOWEL_DISPENSER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:58.323009+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "6046c52b-bada-4b7b-b181-a7b206d5ab25",
+        "name": "Paper Towel Dispenser",
+        "family_title_full": "IDP_Furniture_DIS913-PAPER TOWEL DISPENSER",
+        "ifc_type": "RFA",
+        "predefined_type": "NOTDEFINED",
+        "dimensions": {
+          "w": 0.26,
+          "d": 0.378,
+          "h": 0.124
+        },
+        "component_key_suggested": "paper_towel_dispenser",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:paper towel"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_DIS913-PAPER TOWEL DISPENSER",
+            "category": "23.40.20.21.17",
+            "description": "PAPER TOWEL DISPENSER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22_62 : Paper towel dispensers",
+            "version": "Products v1.7",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "260 x 378 x 124 mm",
+            "w": 0.26,
+            "d": 0.378,
+            "h": 0.124
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": "NOTDEFINED"
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": "n/a"
+          }
+        },
+        "thumbnail_url": "/api/families/6046c52b-bada-4b7b-b181-a7b206d5ab25/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_DIS913-PAPER TOWEL DISPENSER",
+      "family_name": "Paper Towel Dispenser",
+      "category": "23.40.20.21.17",
+      "description": "PAPER TOWEL DISPENSER",
+      "size_text": "260 x 378 x 124 mm",
+      "dimensions": {
+        "w": 0.26,
+        "d": 0.378,
+        "h": 0.124
+      },
+      "ifc_predefined_type": "NOTDEFINED",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22_62 : Paper towel dispensers",
+        "version": "Products v1.7",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "n/a",
+      "revit_product": null,
+      "component_key_suggested": "paper_towel_dispenser",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:paper towel"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "f6655eba-7bf8-49c0-9e0d-4d5690ae7400",
+    "filename": "qbc2nxnm_IDP_Electrical Fixtures_OUT131-DOUBLE DATA.rfa",
+    "sha256": "04578d01763b213c",
+    "size": 458752,
+    "path": "04578d01763b213c_qbc2nxnm_IDP_Electrical_Fixtures_OUT131-DOUBLE_DATA.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:58.516662+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "f6655eba-7bf8-49c0-9e0d-4d5690ae7400",
+        "name": "Double Data",
+        "family_title_full": "IDP_Electrical Fixtures_OUT131-DOUBLE DATA",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "data_double",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:double data"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT131-DOUBLE DATA",
+            "category": "Electrical Fixtures",
+            "description": "DOUBLE DATA / VOICE OUTLET",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_70_75_04\u00a0: Audio, data and visual outlet plates and controllers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/f6655eba-7bf8-49c0-9e0d-4d5690ae7400/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT131-DOUBLE DATA",
+      "family_name": "Double Data",
+      "category": "Electrical Fixtures",
+      "description": "DOUBLE DATA / VOICE OUTLET",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_70_75_04\u00a0: Audio, data and visual outlet plates and controllers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "data_double",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:double data"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "344e5936-86d2-436d-8cb4-183c0e66ab19",
+    "filename": "qh1oa2m0_IDP_Furniture_DIS930-SOAP DISPENSER.rfa",
+    "sha256": "aca1d3c7366bf490",
+    "size": 495616,
+    "path": "aca1d3c7366bf490_qh1oa2m0_IDP_Furniture_DIS930-SOAP_DISPENSER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:58.686009+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "344e5936-86d2-436d-8cb4-183c0e66ab19",
+        "name": "Soap Dispenser",
+        "family_title_full": "IDP_Furniture_DIS930-SOAP DISPENSER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "soap_dispenser",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:soap"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_DIS930-SOAP DISPENSER",
+            "category": "Furniture",
+            "description": "SOAP DISPENSER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22_81 : Soap dispensers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/344e5936-86d2-436d-8cb4-183c0e66ab19/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_DIS930-SOAP DISPENSER",
+      "family_name": "Soap Dispenser",
+      "category": "Furniture",
+      "description": "SOAP DISPENSER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22_81 : Soap dispensers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "soap_dispenser",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:soap"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "5a695d05-1ea2-489b-ac57-efff2df67046",
+    "filename": "u9ob2ja7_IDP_Electrical Fixtures_OUT005-SGL SWITCHED PLUG SOCKET.rfa",
+    "sha256": "9057e2a8367b2012",
+    "size": 471040,
+    "path": "9057e2a8367b2012_u9ob2ja7_IDP_Electrical_Fixtures_OUT005-SGL_SWITCHED_PLUG_SOCKET.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:58.852725+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "5a695d05-1ea2-489b-ac57-efff2df67046",
+        "name": "Sgl Switched Plug Socket",
+        "family_title_full": "IDP_Electrical Fixtures_OUT005-SGL SWITCHED PLUG SOCKET",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "socket_single",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:sgl switched"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT005-SGL SWITCHED PLUG SOCKET",
+            "category": "Electrical Fixtures",
+            "description": "SGL SWITCHED PLUG SOCKET",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_65_72_97_84\u00a0: Standard socket outlets",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/5a695d05-1ea2-489b-ac57-efff2df67046/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT005-SGL SWITCHED PLUG SOCKET",
+      "family_name": "Sgl Switched Plug Socket",
+      "category": "Electrical Fixtures",
+      "description": "SGL SWITCHED PLUG SOCKET",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_65_72_97_84\u00a0: Standard socket outlets",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "socket_single",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:sgl switched"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "2481f363-95b7-4420-b485-f748503a6c0f",
+    "filename": "ulndsnxu_IDP_Electrical Fixtures_OUT079-ISOLATOR OUTLET.rfa",
+    "sha256": "d01bff0080114532",
+    "size": 450560,
+    "path": "d01bff0080114532_ulndsnxu_IDP_Electrical_Fixtures_OUT079-ISOLATOR_OUTLET.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:59.023716+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "2481f363-95b7-4420-b485-f748503a6c0f",
+        "name": "Isolator Outlet",
+        "family_title_full": "IDP_Electrical Fixtures_OUT079-ISOLATOR OUTLET",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "outlet_isolator",
+        "confidence": 0.9,
+        "classifier_debug": {
+          "reason": "keyword:isolator"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Electrical Fixtures_OUT079-ISOLATOR OUTLET",
+            "category": "Electrical Fixtures",
+            "description": "ISOLATOR OUTLET",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_65_72_97_84\u00a0: Standard socket outlets",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/2481f363-95b7-4420-b485-f748503a6c0f/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Electrical Fixtures_OUT079-ISOLATOR OUTLET",
+      "family_name": "Isolator Outlet",
+      "category": "Electrical Fixtures",
+      "description": "ISOLATOR OUTLET",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_65_72_97_84\u00a0: Standard socket outlets",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "outlet_isolator",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:isolator"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "749aaf7b-1ac7-4737-a793-b001f07e64c4",
+    "filename": "w6kh48gw_IDP_Furniture_DIS926-HAND SANITISER DISPENSER.rfa",
+    "sha256": "ef82b2586d3234dd",
+    "size": 495616,
+    "path": "ef82b2586d3234dd_w6kh48gw_IDP_Furniture_DIS926-HAND_SANITISER_DISPENSER.rfa",
+    "uploaded_by": "guest+batch5tester@his.local",
+    "uploaded_at": "2026-08-07T15:38:59.202838+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "749aaf7b-1ac7-4737-a793-b001f07e64c4",
+        "name": "Hand Sanitiser Dispenser",
+        "family_title_full": "IDP_Furniture_DIS926-HAND SANITISER DISPENSER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "sanitiser_unit",
+        "confidence": 1.0,
+        "classifier_debug": {
+          "reason": "manual"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Furniture_DIS926-HAND SANITISER DISPENSER",
+            "category": "Furniture",
+            "description": "HAND SANITISER DISPENSER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22_35 : Hand sanitizer dispensers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/749aaf7b-1ac7-4737-a793-b001f07e64c4/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Furniture_DIS926-HAND SANITISER DISPENSER",
+      "family_name": "Hand Sanitiser Dispenser",
+      "category": "Furniture",
+      "description": "HAND SANITISER DISPENSER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22_35 : Hand sanitizer dispensers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "sanitiser_unit",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:sanitiser"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "72979329-5926-4b39-8bb1-117d6766e7ca",
+    "filename": "DIS438.rfa",
+    "sha256": "edeeec0d105f3dd3",
+    "size": 491520,
+    "path": "edeeec0d105f3dd3_DIS438.rfa",
+    "uploaded_by": "architect@his.dev",
+    "uploaded_at": "2026-08-07T15:49:07.967464+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "72979329-5926-4b39-8bb1-117d6766e7ca",
+        "name": "Disposable Gloves & Apron Dispenser",
+        "family_title_full": "IDP_Medical Equipment_DIS438-DISPOSABLE GLOVES &amp; APRON DISPENSER",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "ppe_station",
+        "confidence": 1.0,
+        "classifier_debug": {
+          "reason": "manual"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Medical Equipment_DIS438-DISPOSABLE GLOVES &amp; APRON DISPENSER",
+            "category": "Medical Equipment",
+            "description": "DISPOSABLE GLOVES &amp; APRON DISPENSER",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_70_22_23 : Disposable glove dispensers",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/72979329-5926-4b39-8bb1-117d6766e7ca/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Medical Equipment_DIS438-DISPOSABLE GLOVES &amp; APRON DISPENSER",
+      "family_name": "Disposable Gloves &amp; Apron Dispenser",
+      "category": "Medical Equipment",
+      "description": "DISPOSABLE GLOVES &amp; APRON DISPENSER",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_70_22_23 : Disposable glove dispensers",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "ppe_station",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:apron"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  },
+  {
+    "id": "b1c2cbdb-a892-4e39-8fb6-a780806cf4aa",
+    "filename": "TRO235.rfa",
+    "sha256": "dedab2518902ca58",
+    "size": 462848,
+    "path": "dedab2518902ca58_TRO235.rfa",
+    "uploaded_by": "architect@his.dev",
+    "uploaded_at": "2026-08-07T15:49:08.228707+00:00",
+    "file_kind": "rfa",
+    "schema": "RFA (Revit binary)",
+    "total_elements": 1,
+    "elements": [
+      {
+        "guid": "b1c2cbdb-a892-4e39-8fb6-a780806cf4aa",
+        "name": "Soiled Linen Trolley",
+        "family_title_full": "IDP_Medical Equipment_TRO235-SOILED LINEN TROLLEY",
+        "ifc_type": "RFA",
+        "predefined_type": "",
+        "dimensions": {
+          "w": null,
+          "d": null,
+          "h": null
+        },
+        "component_key_suggested": "linen_trolley",
+        "confidence": 1.0,
+        "classifier_debug": {
+          "reason": "manual"
+        },
+        "properties": {
+          "Identity": {
+            "family_title_full": "IDP_Medical Equipment_TRO235-SOILED LINEN TROLLEY",
+            "category": "Medical Equipment",
+            "description": "SOILED LINEN TROLLEY",
+            "manufacturer": "",
+            "revit_product": null
+          },
+          "Uniclass 2015": {
+            "code": "Pr_40_50_53_81 : Soiled linen trolleys",
+            "version": "",
+            "reference": ""
+          },
+          "Dimensions": {
+            "size_text": "",
+            "w": null,
+            "d": null,
+            "h": null
+          },
+          "Standards": {
+            "standard": "",
+            "ifc_predefined_type": ""
+          },
+          "Warranty": {
+            "duration_unit": "",
+            "replacement_cost": ""
+          }
+        },
+        "thumbnail_url": "/api/families/b1c2cbdb-a892-4e39-8fb6-a780806cf4aa/thumbnail"
+      }
+    ],
+    "rfa_meta": {
+      "kind": "rfa",
+      "family_title_full": "IDP_Medical Equipment_TRO235-SOILED LINEN TROLLEY",
+      "family_name": "Soiled Linen Trolley",
+      "category": "Medical Equipment",
+      "description": "SOILED LINEN TROLLEY",
+      "size_text": "",
+      "dimensions": {
+        "w": null,
+        "d": null,
+        "h": null
+      },
+      "ifc_predefined_type": "",
+      "standard": "",
+      "uniclass": {
+        "code": "Pr_40_50_53_81 : Soiled linen trolleys",
+        "version": "",
+        "reference": ""
+      },
+      "manufacturer": "",
+      "warranty_duration_unit": "",
+      "replacement_cost": "",
+      "revit_product": null,
+      "component_key_suggested": "linen_trolley",
+      "confidence": 0.9,
+      "classifier_debug": {
+        "reason": "keyword:linen"
+      }
+    },
+    "is_system": true,
+    "seed_source": "bundled"
+  }
+]
